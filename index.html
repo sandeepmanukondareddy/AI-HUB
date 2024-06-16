@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI HUB</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> AI HUB</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Intro</a></li>
+          <li><a href="#experience">Latest AI</a></li>
+          <li><a href="#projects">AI Tools</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">AI</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Intro</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Slides</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">AI Tools</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/logo-2.jpg" alt="Hub logo" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Welcome To</p>
+        <h1 class="title">Artificial Intelligence</h1>
+        <p class="section__text__p2">Hub</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/list ai.pdf')"
+          >
+            Download AI List
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/what's app logo.jpg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://chat.whatsapp.com/Cz4Kpr7NJh05kuQIBrHpG2'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Hub</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/logo-2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Dicovery of AI</h3>
+              <p>1956  <br />At Dartmouth workshop</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Dicvovered By</h3>
+              <p>Newell and Simon</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Welcome to AI Innovations Hub, your go-to source for exploring the latest breakthroughs and trends in Artificial Intelligence! Whether you're an AI enthusiast, a tech professional, or just curious about the ever-evolving world of technology, you're in the right place.
+              <br>Our mission is to keep you updated on the cutting-edge developments in AI that are transforming industries, enhancing our daily lives, and shaping the future. From groundbreaking research to innovative applications, we delve into the fascinating world of AI and bring you insights on the technologies that are driving the next wave of digital transformation.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore More</p>
+      <h1 class="title">Latest AI Tools</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Most Using AI's</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://www.synthesia.io/'"
+                />
+                <div>
+                  <h3>Synthesia</h3>
+                  <p>AI video generator</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://www.wordtune.com/lp/aiwriting?utm_source=google-search&utm_medium=cpc&utm_campaign_id=21364325700&ad_set_id=166998380521&utm_campaign=Wordtune_GS_Tier3_EN_D_SUPS_CPC_18-24_GEO&ad_set_name=Aiwriting_Search_Tier3_EN_D&utm_term=ai%20generator%20writing&ad_id=702043390496&gad_source=1&gclid=CjwKCAjw1K-zBhBIEiwAWeCOF-rFK5sz3BAWF469FPXIG3KgggICXvqX-pilDRGYeXwg2_7pQgEKRxoC-YgQAvD_BwE'"
+                />
+                <div>
+                  <h3>Byword</h3>
+                  <p>AI Article Writer</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://fliki.ai/'"
+                />
+                <div>
+                  <h3>Fliki</h3>
+                  <p>Video Generator</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://lumen5.com/'"
+                />
+                <div>
+                  <h3>Lumen5</h3>
+                  <p>Prompt to video</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://www.deepbrain.io/'"
+                />
+                <div>
+                  <h3>DEEPBRAIN AI</h3>
+                  <p>Videos Generation</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://runwayml.com/'"
+                />
+                <div>
+                  <h3>Runway</h3>
+                  <p>Image Generation</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">AI Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://pictory.ai/?el=2000&htrafficsource=pictoryblog'"
+                />
+                <div>
+                  <h3>Pictory</h3>
+                  <p>Text /Voice to Video</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://govdash.com/'"
+                />
+                <div>
+                  <h3>Olli.ai</h3>
+                  <p>AI Bussiness Developer</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://my.brain.fm/'"
+                />
+                <div>
+                  <h3>Brain.fm</h3>
+                  <p>Music</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                  onclick="location.href='https://www.lyzr.ai/skott/?via=findmyaitool'"
+                />
+                <div>
+                  <h3>Skott</h3>
+                  <p>Social Media Assistant</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse Top AI</p>
+      <h1 class="title">AI Tools</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Quillbot.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Quillbot</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj86678vtqGAxV4Rf8BHau7DJgYABAAGgJtZA&co=1&ase=2&gclid=Cj0KCQjwsaqzBhDdARIsAK2gqneeg2nXL3KmGS7i3UsftQg2YF122lxVLZDzRngmshkmcqeDcQSYVjIaAnyQEALw_wcB&ei=m-ZrZvuTF-mM4-EPiZWcyA4&ohost=www.google.com&cid=CAESVuD2mmNEuO9luO3g41aBAt83RZ4WMlt9cJFxlujKmiYlXprCqegn5IqRJ-Ymkro_2jiqWOMEKw-3Vcq1iQGGT1V13_i5SfU7J9sL9lutjlolTilLLyEk&sig=AOD64_3VHuTuasZA7RGjX1B-5yOG55ja7Q&q&sqi=2&nis=4&adurl&ved=2ahUKEwi7zaH8vtqGAxVpxjgGHYkKB-kQ0Qx6BAgVEAE'"
+              >
+                Link-1
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwj86678vtqGAxV4Rf8BHau7DJgYABAAGgJtZA&co=1&ase=2&gclid=Cj0KCQjwsaqzBhDdARIsAK2gqneeg2nXL3KmGS7i3UsftQg2YF122lxVLZDzRngmshkmcqeDcQSYVjIaAnyQEALw_wcB&ei=m-ZrZvuTF-mM4-EPiZWcyA4&ohost=www.google.com&cid=CAESVuD2mmNEuO9luO3g41aBAt83RZ4WMlt9cJFxlujKmiYlXprCqegn5IqRJ-Ymkro_2jiqWOMEKw-3Vcq1iQGGT1V13_i5SfU7J9sL9lutjlolTilLLyEk&sig=AOD64_3VHuTuasZA7RGjX1B-5yOG55ja7Q&q&sqi=2&nis=4&adurl&ved=2ahUKEwi7zaH8vtqGAxVpxjgGHYkKB-kQ0Qx6BAgVEAE'"
+              >
+                Link-2
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Bit ai.jpeg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Bit AI</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://bit.ai/'"
+              >
+                Link-1
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://bit.ai/'"
+              >
+                Link-2
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Scite_ai.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Scite</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://scite.ai/'"
+              >
+                Link-1
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://scite.ai/'"
+              >
+                Link-2
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:manukondasandeep99@gmail.com">manukondasandeep99@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/what's app logo.jpg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://chat.whatsapp.com/Cz4Kpr7NJh05kuQIBrHpG2">whatsapp</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Intro</a></li>
+            <li><a href="#experience">Latest AI</a></li>
+            <li><a href="#projects">AI Tools</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; AI HUB. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
